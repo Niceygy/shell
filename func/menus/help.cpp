@@ -2,7 +2,13 @@
 #include <iostream>
 #include "help.h"
 
-void helpMenu() {
+
+/**
+ * Displays the help menu
+ * returnText - Whether to return the text or not
+ * (default: false)
+*/
+std::string helpMenu(bool returnText = false) {
     std::string helpMessage1 = "Welcome to the help menu!\n";
     helpMessage1 += "These are the commands you can use:\n";
     helpMessage1 += "help - Displays this menu\n";
@@ -12,7 +18,13 @@ void helpMenu() {
     helpMessage1 += "ls - Lists the contents of the current directory\n";
     helpMessage1 += "sysinfo - Displays system information\n";
     helpMessage1 += "clear - Clears the screen\n";
-    std::cout << helpMessage1;
+    if (returnText) {
+        return helpMessage1;
+    } else {
+        std::cout << helpMessage1;
+        return "";
+    }
+    //std::cout << helpMessage1;
 
     return;
 };

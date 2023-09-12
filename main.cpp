@@ -3,6 +3,10 @@
 #include <pwd.h>
 #include <string>
 
+//FUNCS
+#include "func/menus/help.h"
+#include "handlers/handle.h"
+
 int welcome()
 {
     char hostname[1024];

@@ -2,6 +2,8 @@
 #define HELP_H
 
 // Function declaration
-void helpMenu();
+std::string helpMenu(bool returnText = false);
+std::string helpmenu(bool returnText = false);
+
 
 #endif // HELP_H
