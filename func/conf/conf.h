@@ -4,5 +4,6 @@
 
 // Function declaration - CONF
 void readConf();
+void createConf();
 
 #endif // HELCONF_H

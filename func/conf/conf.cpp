@@ -4,7 +4,7 @@
 #include <fstream>
 #include "conf.h"
 
-std::string conf(int lineNumber) {
+std::string readConf(int lineNumber) {
     //get user
     char* user = getenv("USER");
     std::string userString(user);
