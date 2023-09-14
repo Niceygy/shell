@@ -46,5 +46,12 @@
         "streambuf": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/root/code/c/c++/bin",
+            "binaryPath": "/root/code/c/c++/bin/nsh",
+            "binaryArgs": []
+        }
+    ]
 }

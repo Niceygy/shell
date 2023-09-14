@@ -8,7 +8,7 @@
  * returnText - Whether to return the text or not
  * (default: false)
 */
-std::string helpMenu(bool returnText = false) {
+void helpMenu() {
     std::string helpMessage1 = "Welcome to the help menu!\n";
     helpMessage1 += "These are the commands you can use:\n";
     helpMessage1 += "help - Displays this menu\n";
@@ -18,14 +18,6 @@ std::string helpMenu(bool returnText = false) {
     helpMessage1 += "ls - Lists the contents of the current directory\n";
     helpMessage1 += "sysinfo - Displays system information\n";
     helpMessage1 += "clear - Clears the screen\n";
-    if (returnText) {
-        return helpMessage1;
-    } else {
-        std::cout << helpMessage1;
-        return "";
-    }
-    //std::cout << helpMessage1;
-
-    return "";
+    return;
 };
 

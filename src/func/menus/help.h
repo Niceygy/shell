@@ -2,7 +2,7 @@
 #define HELP_H
 
 // Function declaration
-std::string helpMenu(bool returnText = false);
+void helpMenu();
 
 
 

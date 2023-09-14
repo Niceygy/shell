@@ -3,6 +3,7 @@
 #include <pwd.h>
 #include <string>
 #include "welcomeBanner.h"
+#include "func/menus/welcomeBanner.h"
 
 int welcome() {
     char hostname[1024];

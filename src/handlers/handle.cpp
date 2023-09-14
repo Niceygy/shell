@@ -6,7 +6,8 @@ std::string handle(std::string input = "") {
     if (input == "") {
         return "Please enter a command";
     } else if (input == "help") {
-        return helpMenu(true);
+        helpMenu();
+        return "";
     } else {
         return "Unknown command";
     }
