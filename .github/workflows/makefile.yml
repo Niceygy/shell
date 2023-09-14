@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-        image: ghcr.io/niceygylive/dockergpp:latest
+        image: ghcr.io/niceygylive/dockergpp:main
 
     steps:
     - uses: actions/checkout@v3
