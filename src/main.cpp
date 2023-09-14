@@ -10,6 +10,7 @@
 
 
 std::string input() {
+    std::cout << ">> ";
     std::string input;
     std::cin >> input;
     return input;
