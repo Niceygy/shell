@@ -2,6 +2,7 @@
 #include <unistd.h>
 #include <pwd.h>
 #include <string>
+#include "welcomeBanner.h"
 
 int welcome() {
     char hostname[1024];

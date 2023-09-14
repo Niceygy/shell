@@ -6,6 +6,7 @@
 //FUNCS
 #include "func/menus/help.h"
 #include "handlers/handle.h"
+#include "func/menus/welcomeBanner.h"
 
 
 std::string input() {

@@ -26,6 +26,6 @@ std::string helpMenu(bool returnText = false) {
     }
     //std::cout << helpMessage1;
 
-    return;
+    return "";
 };
 

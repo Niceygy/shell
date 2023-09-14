@@ -3,7 +3,7 @@
 
 // Function declaration
 std::string helpMenu(bool returnText = false);
-std::string helpmenu(bool returnText = false);
+
 
 
 #endif // HELP_H
