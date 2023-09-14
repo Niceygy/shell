@@ -1,0 +1,28 @@
+name: Makefile 
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    container:
+        image: ghcr.io/niceygylive/dockergpp:latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install dependencies
+      run: make
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+            name: nsh
+            path: build/nsh
+
