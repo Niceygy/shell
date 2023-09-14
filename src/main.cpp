@@ -27,7 +27,7 @@ int main()
     welcome();
     while (true) {
        std::string userRequest = input();
-       handleInput(userRequest);
+       handle(userRequest);
 
     };
     

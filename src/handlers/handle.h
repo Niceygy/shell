@@ -3,6 +3,6 @@
 #define HANDLE_H
 
 // Function declaration - HANDLE
-std::string handle(std::string input = "");
+std::string handle(std::string input);
 
 #endif // HANDLE_H
